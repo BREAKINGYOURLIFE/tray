@@ -1,0 +1,6 @@
+int main()
+{
+mciSendString("set cdaudio door open", NULL, NULL NULL)
+printf("Tray Opent!");
+getchar();
+return EXIT_SUCCESS;
